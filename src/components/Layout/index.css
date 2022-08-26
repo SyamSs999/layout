@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+@media (min-width: 768px) {
+  .layout-container {
+    height: 85vh;
+  }
+}

@@ -1,0 +1,106 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.body {
+  width: 80%;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 750px;
+}
+.left-nav-bar {
+  background-color: #e2e8f0;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.right-nav-bar {
+  background-color: #e2e8f0;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.nav-bar-text {
+  color: #475569;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.nav-item {
+  margin-right: 10px;
+  color: #64748b;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.nav-items {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-box-item {
+  height: 130px;
+  width: 100px;
+  border: #475569 solid 1px;
+  color: #64748b;
+  font-size: 18px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  background-color: #f1f5f9;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.content-text {
+  color: #64748b;
+  font-size: 18px;
+}
+.content-desc {
+  color: #64748b;
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    height: 400px;
+  }
+  .left-nav-bar {
+    height: 400px;
+    width: 25%;
+  }
+  .right-nav-bar {
+    height: 400px;
+    width: 25%;
+    margin-left: auto;
+  }
+  .nav-box-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-bar-text {
+    text-align: left;
+  }
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .content {
+    width: 100%;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+    padding: 30px;
+  }
+}
